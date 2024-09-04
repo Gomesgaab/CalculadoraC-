@@ -1,0 +1,44 @@
+﻿Compilação de 03/09/2024 22:50:21 iniciada.
+O detalhamento do log está definido como: Normal.     1>Projeto "E:\ProjectC\Project2\Project2\Project2.vcxproj" no nó 2 (Rebuild destino(s)).
+     1>_PrepareForClean:
+         Excluindo o arquivo "x64\Debug\Project2.tlog\Project2.lastbuildstate".
+       PrepareForBuild:
+         A saída estruturada está habilitada. A formatação do diagnóstico do compilador refletirá a hierarquia de erros. Consulte https://aka.ms/cpp/structured-output para obter mais detalhes.
+       InitializeBuildStatus:
+         Criando "x64\Debug\Project2.tlog\unsuccessfulbuild" porque "AlwaysCreate" foi especificado.
+         Tocando "x64\Debug\Project2.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt ControlCalculadora.cpp Main.cpp ModelC.cpp
+         ControlCalculadora.cpp
+         Main.cpp
+         ModelC.cpp
+     1>E:\ProjectC\Project2\Project2\ModelC.cpp(29,22): warning C4244: 'return': conversão de 'float' para 'int', possível perda de dados
+     1>E:\ProjectC\Project2\Project2\ModelC.cpp(35,22): warning C4244: 'return': conversão de 'float' para 'int', possível perda de dados
+     1>E:\ProjectC\Project2\Project2\ModelC.cpp(53,22): warning C4244: 'return': conversão de 'float' para 'int', possível perda de dados
+     1>E:\ProjectC\Project2\Project2\ModelC.cpp(72,26): warning C4244: '*=': conversão de 'float' para 'int', possível perda de dados
+     1>E:\ProjectC\Project2\Project2\ModelC.cpp(77,9): warning C4244: 'return': conversão de 'int' para 'float', possível perda de dados
+         Gerando Código...
+       Link:
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\ProjectC\Project2\x64\Debug\Project2.exe" /INCREMENTAL /ILK:"x64\Debug\Project2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\ProjectC\Project2\x64\Debug\Project2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\ProjectC\Project2\x64\Debug\Project2.lib" /MACHINE:X64 x64\Debug\ControlCalculadora.obj
+         x64\Debug\Main.obj
+         x64\Debug\ModelC.obj
+         Project2.vcxproj -> E:\ProjectC\Project2\x64\Debug\Project2.exe
+       FinalizeBuildStatus:
+         Excluindo o arquivo "x64\Debug\Project2.tlog\unsuccessfulbuild".
+         Tocando "x64\Debug\Project2.tlog\Project2.lastbuildstate".
+     1>Projeto de compilação pronto "E:\ProjectC\Project2\Project2\Project2.vcxproj" (Rebuild destino(s)).
+
+Compilação com êxito.
+
+       "E:\ProjectC\Project2\Project2\Project2.vcxproj" (Rebuild destino) (1) ->
+       (ClCompile destino) -> 
+         E:\ProjectC\Project2\Project2\ModelC.cpp(29,22): warning C4244: 'return': conversão de 'float' para 'int', possível perda de dados
+         E:\ProjectC\Project2\Project2\ModelC.cpp(35,22): warning C4244: 'return': conversão de 'float' para 'int', possível perda de dados
+         E:\ProjectC\Project2\Project2\ModelC.cpp(53,22): warning C4244: 'return': conversão de 'float' para 'int', possível perda de dados
+         E:\ProjectC\Project2\Project2\ModelC.cpp(72,26): warning C4244: '*=': conversão de 'float' para 'int', possível perda de dados
+         E:\ProjectC\Project2\Project2\ModelC.cpp(77,9): warning C4244: 'return': conversão de 'int' para 'float', possível perda de dados
+
+    5 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:02.90
